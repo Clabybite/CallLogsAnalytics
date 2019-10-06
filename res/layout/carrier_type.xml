@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+     >
+	<TextView android:id="@+id/carrier"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_margin="5dp"
+       android:scrollbars="vertical" 
+	/>
+	<TextView android:id="@+id/out_calls"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_margin="5dp"
+       android:scrollbars="vertical" 
+	/>
+	<TextView android:id="@+id/out_duration"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_margin="5dp"
+       android:scrollbars="vertical" 
+	/>
+	<TextView android:id="@+id/in_calls"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_margin="5dp"
+       android:scrollbars="vertical" 
+	/>
+	<TextView android:id="@+id/in_duration"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_margin="5dp"
+       android:scrollbars="vertical" 
+	/>
+		<TextView android:id="@+id/mis_calls"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_margin="5dp"
+       android:scrollbars="vertical" 
+	/>
+	<TextView android:id="@+id/rej_calls"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_margin="5dp"
+       android:scrollbars="vertical" 
+	/>
+	<TextView android:id="@+id/blc_calls"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_margin="5dp"
+       android:scrollbars="vertical" 
+	/>
+</android.support.v7.widget.GridLayout>
